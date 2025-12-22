@@ -1,3 +1,9 @@
+### Clone the repository
+
+```bash
+git clone https://github.com/gutiluis/main_basketball_game.git
+```
+
 # Basketball Game
 
 A terminal-command-line-based basketball game written in Python language. The player takes shots, scores points, and plays until the game ends based on the defined rules.
