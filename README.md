@@ -1,7 +1,7 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/gutiluis/main_basketball_game.git
+git clone https://github.com/gutiluis/Techdegree-project-2.git
 ```
 
 # Basketball Game
