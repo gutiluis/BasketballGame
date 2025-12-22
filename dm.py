@@ -23,7 +23,7 @@ def combine_(PLAYERS):
 
     divide_players_per_team = len(players_copy) // 3
     panthers = new_datas[:divide_players_per_team]
-    bandits = new_datas[define_team:divide_players_per_team * 2]
+    bandits = new_datas[divide_players_per_team:divide_players_per_team * 2]
     warriors = new_datas[divide_players_per_team * 2:]
 
     print("1) PANTHERS TEAM:")
