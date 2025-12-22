@@ -7,6 +7,7 @@ git clone https://github.com/gutiluis/Techdegree-project-2.git
 # Basketball Game
 
 A terminal-command-line-based basketball game written in Python language. The player takes shots, scores points, and plays until the game ends based on the defined rules.
+
 ---
 
 ## Description
@@ -52,5 +53,5 @@ This project focuses on:
 - This project demonstrates basic game logic,
 - User input handling
 - Control flow
-
-
+- Dictionaries inside lists
+- Copy module
