@@ -34,11 +34,16 @@ This project focuses on:
 
 ## How to Play inside the terminal
 
-1. python main.py inside the current working directory
+1. run: python main.py; inside the current working directory
 2. Follow the on-screen prompts to take a shot.
 3. The game determines if the shot is successful.
 4. Points are added for successful shots.
 5. The game ends when the winning condition or limit is reached.
+
+---
+
+## Technologies used
+- Python
 
 ---
 
