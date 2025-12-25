@@ -55,3 +55,6 @@ This project focuses on:
 - Control flow
 - Dictionaries inside lists
 - Copy module
+- For loops
+- list index
+- dictionary key
