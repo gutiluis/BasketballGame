@@ -1,3 +1,5 @@
+## How it works:
+
 # Basketball Game
 
 A terminal-command-line-based basketball game written in Python language. The player takes shots, scores points, and plays until the game ends based on the defined rules.
@@ -38,6 +40,7 @@ This project focuses on:
 ---
 
 ## Technologies used
+
 - Python
 
 ---
@@ -53,8 +56,11 @@ This project focuses on:
 - list index
 - dictionary key
 
+----
 
-### Clone the repository
+###
+
+clone repo:
 
 ```bash
 git clone https://github.com/gutiluis/Techdegree-project-2.git
