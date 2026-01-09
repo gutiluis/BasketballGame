@@ -16,7 +16,7 @@ This project focuses on:
 
 ---
 
-## Features
+## Features:
 
 - Console/terminal-based gameplay
 - User input for taking shots
@@ -30,9 +30,11 @@ This project focuses on:
 
 - Python
 
----
+###
 
-## What I Learned
+-----
+
+## What I Learned:
 
 - This project demonstrates basic game logic,
 - User input handling
