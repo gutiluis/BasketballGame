@@ -1,21 +1,12 @@
 ## How it works:
 
-- run: python main.py; inside the current working directory
-2. Follow the on-screen prompts to take a shot.
-3. The game determines if the shot is successful.
-4. Points are added for successful shots.
-5. The game ends when the winning condition or limit is reached.
-
-# Basketball Game
-
-A terminal-command-line-based basketball game written in Python language. The player takes shots, scores points, and plays until the game ends based on the defined rules.
+- python application.py
 
 ---
 
 ## Description
+Console-based basketball team statistics tool to help you divide up a group of players into same number of players within the teams.
 
-The Basketball Game simulates a simple basketball experience in the terminal.  
-Players attempt shots, receive feedback on whether the shot was successful, and accumulate points. The game continues until a win or end condition is met.
 
 This project focuses on:
 - Conditional logic
@@ -35,7 +26,7 @@ This project focuses on:
 
 ---
 
-## Technologies used:
+## Technologies used
 
 - Python
 
@@ -54,11 +45,11 @@ This project focuses on:
 - list index
 - dictionary key
 
------
+----
 
-### 
+###
 
-Clone repo:
+clone repo:
 
 ```bash
 git clone https://github.com/gutiluis/Techdegree-project-2.git
