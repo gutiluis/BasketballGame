@@ -5,7 +5,7 @@
 ---
 
 ## Description
-Console-based basketball team statistics tool to help you divide up a group of players into same number of players within the teams.
+Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams.
 
 
 This project focuses on:
@@ -19,10 +19,8 @@ This project focuses on:
 ## Features:
 
 - Console/terminal-based gameplay
-- User input for taking shots
-- Score tracking
-- Win or game-over conditions
-- Clear game feedback after each action
+- List of teams and players. Clean the data and then organizing the players into equal teams.
+- This tool will not only balance the teams by the total number of players but also let you generate some statistics for a given team
 
 ---
 
@@ -40,7 +38,8 @@ This project focuses on:
 - User input handling
 - Control flow
 - Dictionaries inside lists
-- Copy module
+- Booleans
+- Copy module copy.deepcopy()
 - For loops
 - list index
 - dictionary key
