@@ -7,12 +7,24 @@
 ## Description
 Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams.
 
+Creates a clean_data function. Which should perform the following actions:
+
+Read the existing player data from the PLAYERS constants provided in constants.py
+Clean the player data using copy.deepcopy().
+Save the cleaned data to a new collection.
+
+Data to be cleaned:
+
+Height: Saved as an integer
+Experience: Saved as a boolean value (True or False)
+
+
 
 This project focuses on:
 - Conditional logic
 - Loops
-- Functions and/or classes
-- Tracking game state (score, attempts, etc.)
+- Functions
+- Data Types
 
 ---
 
