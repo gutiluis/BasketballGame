@@ -2,7 +2,11 @@
 
 - python application.py
 
----
+-----
+
+#####
+
+-----
 
 ## Description
 Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams.
@@ -18,7 +22,11 @@ Data to be cleaned:
 Height: Saved as an integer
 Experience: Saved as a boolean value (True or False)
 
-
+Displaying the Stats:
+When displaying the selected teams' stats to the screen, includes:
+Team's name as a string
+Total players on that team as an integer
+The player names as strings separated by commas
 
 This project focuses on:
 - Conditional logic
@@ -26,7 +34,11 @@ This project focuses on:
 - Functions
 - Data Types
 
----
+-----
+
+###
+
+------
 
 ## Features:
 
