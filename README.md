@@ -1,6 +1,6 @@
 ## How it works:
-
-- python application.py
+# run:
+- python app.py
 
 -----
 
@@ -75,7 +75,7 @@ This project focuses on:
 clone repo:
 
 ```bash
-git clone https://github.com/gutiluis/Techdegree-project-2.git
+git clone https://github.com/gutiluis/BasketballGame.git
 ```
 
 
