@@ -1,56 +1,83 @@
-### Clone the repository
+## How it works:
 
-```bash
-git clone https://github.com/gutiluis/main_basketball_game.git
-```
+- python application.py
 
-# Basketball Game
+-----
 
-A terminal-command-line-based basketball game written in Python language. The player takes shots, scores points, and plays until the game ends based on the defined rules.
----
+#####
+
+-----
 
 ## Description
+Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams.
 
-The Basketball Game simulates a simple basketball experience in the terminal.  
-Players attempt shots, receive feedback on whether the shot was successful, and accumulate points. The game continues until a win or end condition is met.
+Creates a clean_data function. Which should perform the following actions:
+
+Read the existing player data from the PLAYERS constants provided in constants.py
+Clean the player data using copy.deepcopy().
+Save the cleaned data to a new collection.
+
+Data to be cleaned:
+
+Height: Saved as an integer
+Experience: Saved as a boolean value (True or False)
+
+Displaying the Stats:
+When displaying the selected teams' stats to the screen, includes:
+Team's name as a string
+Total players on that team as an integer
+The player names as strings separated by commas
 
 This project focuses on:
 - Conditional logic
 - Loops
-- Functions and/or classes
-- Tracking game state (score, attempts, etc.)
+- Functions
+- Data Types
 
----
+-----
 
-## Features
+###
+
+------
+
+## Features:
 
 - Console/terminal-based gameplay
-- User input for taking shots
-- Score tracking
-- Win or game-over conditions
-- Clear game feedback after each action
-
----
-
-## How to Play inside the terminal
-
-1. run: python main.py; inside the current working directory
-2. Follow the on-screen prompts to take a shot.
-3. The game determines if the shot is successful.
-4. Points are added for successful shots.
-5. The game ends when the winning condition or limit is reached.
+- List of teams and players. Clean the data and then organizing the players into equal teams.
+- This tool will not only balance the teams by the total number of players but also let you generate some statistics for a given team
 
 ---
 
 ## Technologies used
+
 - Python
 
----
+###
 
-## What I Learned
+-----
+
+## What I Learned:
 
 - This project demonstrates basic game logic,
 - User input handling
 - Control flow
+- Dictionaries inside lists
+- Booleans
+- Copy module copy.deepcopy()
+- For loops
+- list index
+- dictionary key
+
+----
+
+###
+
+clone repo:
+
+```bash
+git clone https://github.com/gutiluis/Techdegree-project-2.git
+```
+
+
 
 

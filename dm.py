@@ -30,7 +30,7 @@ def clean_data_function_(PLAYERS):
         append_it_to_the_new_list.append(new_player)
 
     total_number_of_players = len(player_per_copy) // 3
-    panthers = append_it_to_the_new_list[:total_number_of_players] # ?
+    panthers = append_it_to_the_new_list[:total_number_of_players]
     bandits = append_it_to_the_new_list[total_number_of_players:total_number_of_players * 2]
     warriors = append_it_to_the_new_list[total_number_of_players * 2:]
 
