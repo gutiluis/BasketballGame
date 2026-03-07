@@ -1,14 +1,22 @@
 from constants import PLAYERS
 import copy
+import pdb
 import random
+import shutil
 import sys
+import time
 
+def clean_data_function_(PLAYERS):
+    player_per_copy = copy.deepcopy(PLAYERS)
+    #pdb.set_trace()
+    try:
+        # returns None
+        random.shuffle(player_per_copy) # return None
+    except: # except never runs
+        print('error') # never prints
 
-def combine_(PLAYERS):
-    players_copy = copy.deepcopy(PLAYERS)
-    random.shuffle(players_copy)
-    new_datas = []
-    for player in players_copy:
+    append_it_to_the_new_list = []
+    for player in player_per_copy:
         new_player = {"experience": False, "height": False}
         if "name" in player:
             new_player["name"] = player["name"]
@@ -19,12 +27,12 @@ def combine_(PLAYERS):
                 new_player["height"] = int(player["height"].split(" ")[0])
             except ValueError:
                 new_player["height"] = False
-        new_datas.append(new_player)
+        append_it_to_the_new_list.append(new_player)
 
-    define_team = len(players_copy) // 3
-    panthers = new_datas[:define_team]
-    bandits = new_datas[define_team:define_team * 2]
-    warriors = new_datas[define_team * 2:]
+    total_number_of_players = len(player_per_copy) // 3
+    panthers = append_it_to_the_new_list[:total_number_of_players] # ?
+    bandits = append_it_to_the_new_list[total_number_of_players:total_number_of_players * 2]
+    warriors = append_it_to_the_new_list[total_number_of_players * 2:]
 
     print("1) PANTHERS TEAM:")
     team_stats(panthers)
@@ -34,7 +42,6 @@ def combine_(PLAYERS):
     team_stats(warriors)
 
     return {"panthers": panthers, "bandits": bandits, "warriors": warriors}
-
 
 
 
@@ -69,12 +76,17 @@ def team_stats(team):
 
 
 def greeting():
-    print("BASKETBALL TEAM STATS TOOL\n")
-    print("---------------MENU------------\n")
+    columns = shutil.get_terminal_size().columns
+    VAR = 'BASKETBALL TEAM STATS TOOL'
+    print(f"\n{VAR.center(columns)}")
+    second_var = "---------------MENU------------\n"
+    print()
+    print(second_var.center(columns))
+    print()
     print(
-        "Here are your choices:\n",
-        "1) Display Team Stats\n",
-        "2) Quit \n"
+        "Select an option:\n",
+        "1) Press 1 to Display Team Stats\n",
+        "2) Press 2 to Quit \n"
     )
     try:
         variable = int(input("Enter an option > "))
@@ -83,7 +95,12 @@ def greeting():
         sys.exit()
 
     if variable == 1:
-        combine_(PLAYERS)
+        clean_data_function_(PLAYERS)
+        time.sleep(1)
+        print('\nPress Enter to continue...')
+        input()
+        greeting()
+        
     elif variable == 2:
         sys.exit()
     else:
