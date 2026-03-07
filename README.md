@@ -9,7 +9,7 @@
 -----
 
 ## Description
-Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams.
+Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams written in python.
 
 Creates a clean_data function. Which should perform the following actions:
 
@@ -19,7 +19,7 @@ Save the cleaned data to a new collection.
 
 Data to be cleaned:
 
-Height: Saved as an integer
+Height: Saved as an integer<br>
 Experience: Saved as a boolean value (True or False)
 
 Displaying the Stats:
