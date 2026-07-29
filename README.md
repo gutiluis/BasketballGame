@@ -4,9 +4,9 @@
 
 ---
 
-### Description
+### Description:
 
-Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams written in python.
+CLI-based basketball team statistics tool to divide up a group of players into same number of players per teams.
 
 Creates a clean_data function. Which should perform the following actions:
 
@@ -48,15 +48,14 @@ This project focuses on:
 
 ## Skills:
 
-- This project demonstrates basic game logic,
 - User input handling
 - Control flow
 - Dictionaries inside lists
 - Booleans
 - Copy module copy.deepcopy()
 - For loops
-- list index
-- dictionary key
+- Index list
+- Key dictionaries
 
 ---
 
