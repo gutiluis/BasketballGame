@@ -1,14 +1,11 @@
-## How it works:
-# run:
-- python app.py
+# How it works:
 
------
+- $ python app.py
 
-#####
+---
 
------
+### Description
 
-## Description
 Console-based basketball team statistics tool to help you divide up a group of players into same number of players per teams written in python.
 
 Creates a clean_data function. Which should perform the following actions:
@@ -34,11 +31,7 @@ This project focuses on:
 - Functions
 - Data Types
 
------
-
-###
-
-------
+---
 
 ## Features:
 
@@ -48,15 +41,15 @@ This project focuses on:
 
 ---
 
-## Technologies used
+## Tech-Stack:
 
 - Python
 
 ###
 
------
+--
 
-## What I Learned:
+## Skills:
 
 - This project demonstrates basic game logic,
 - User input handling
@@ -68,9 +61,7 @@ This project focuses on:
 - list index
 - dictionary key
 
-----
-
-###
+---
 
 clone repo:
 
