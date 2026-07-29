@@ -15,8 +15,7 @@ Clean the player data using copy.deepcopy().
 Save the cleaned data to a new collection.
 
 Data to be cleaned:
-
-Height: Saved as an integer<br>
+Height: Saved as an integer
 Experience: Saved as a boolean value (True or False)
 
 Displaying the Stats:
@@ -45,9 +44,7 @@ This project focuses on:
 
 - Python
 
-###
-
---
+---
 
 ## Skills:
 
@@ -68,7 +65,3 @@ clone repo:
 ```bash
 git clone https://github.com/gutiluis/BasketballGame.git
 ```
-
-
-
-
