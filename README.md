@@ -1,10 +1,7 @@
-# How it works:
+> [!WARNING]
+> CURRENTLY UNDER DEVELOPMENT
 
-- $ python app.py
-
----
-
-### Description:
+# BasketBall Game APP
 
 CLI-based basketball team statistics tool to divide up a group of players into same number of players per teams.
 
@@ -32,6 +29,13 @@ This project focuses on:
 
 ---
 
+# How it works:
+
+```
+python app.py
+```
+---
+
 ## Features:
 
 - Console/terminal-based gameplay
@@ -40,13 +44,13 @@ This project focuses on:
 
 ---
 
-## Tech-Stack:
+## Tech-Stack
 
 - Python
 
 ---
 
-## Skills:
+## Skills
 
 - User input handling
 - Control flow
@@ -64,3 +68,27 @@ clone repo:
 ```bash
 git clone https://github.com/gutiluis/BasketballGame.git
 ```
+
+---
+
+## Contributing
+
+If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](https://github.com/gutiluis/.github/blob/main/CONTRIBUTING.md) for more information on what we're looking for and how to get started.
+
+---
+
+## Community
+
+Info on reporting bugs, getting help, finding third-party tools and sample apps, and more can be found on our **Community** channels:
+* **Discord:** [Community channel](https://discord.gg/5xdAFuadP)
+* **Slack Workspace:** [technobool.slack.com](https://technobool.slack.com)
+* **GitHub Discussions:** [Open a discussion](https://github.com/gutiluis/BasketballGame/discussions)
+
+---
+
+## License
+
+[MIT LICENSE](LICENSE)
+
+
+
